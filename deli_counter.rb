@@ -33,6 +33,6 @@ end
 
 line = []
 
-take_a_number(line, 'Bob')
-now_serving(line)
-take_a_number(line, 'Sally')
+take_a_number(line)
+#now_serving(line)
+take_a_number(line)
