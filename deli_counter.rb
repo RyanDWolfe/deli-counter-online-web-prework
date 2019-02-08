@@ -14,10 +14,11 @@ def line(deli)
   end
 end
 
-def take_a_number(deli, name)
-    deli << name
+def take_a_number(deli)
+    #deli will be an array of tickets numbers, not names
     line_size = deli.size
-    puts "Welcome, #{name}. You are number #{line_size} in line."
+    new_position = line_size + 1
+    puts "Welcome, you are ticket number #{new_position}. You are number #{new_position} in line."
 end
 
 def now_serving(deli)
@@ -34,5 +35,7 @@ end
 line = []
 
 take_a_number(line)
+# Welcome, you are ticket number 1. You are number 1 in line. 
 #now_serving(line)
 take_a_number(line)
+#Welcome, you are ticket number 2. You are number 2 in line. 
