@@ -21,21 +21,21 @@ def take_a_number(deli, name)
 end
 
 def now_serving(deli)
-if deli.empty? == true
-  puts "There is nobody waiting to be served!"
-else
-puts "Currently serving #{deli.shift}."
-end
+  if deli.empty? == true
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{deli.shift}."
+  end
 
     output = "The line is currently: "
     output += deli.each_index {|x| puts x}
 
     puts output
 
-  end
-
-
 end
+
+
+
 
 line = []
 take_a_number(line, 'Bob')
