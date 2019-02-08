@@ -3,6 +3,7 @@ def line(deli)
   if deli.empty? == true
     puts "The line is currently empty."
   else
+<<<<<<< HEAD
     output = "The line is currently:"
     index_value = 1
     deli.each do |x|
@@ -25,4 +26,13 @@ if deli.empty? == true
 else
 puts "Currently serving #{deli.shift}."
 end
+=======
+    output = "The line is currently: "
+    output += deli.each_index {|x| puts x}
+
+    puts output
+
+  end
+
+>>>>>>> c4b621a1a14589e5c58df0a288dbb4278ed49f97
 end
