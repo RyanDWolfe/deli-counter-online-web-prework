@@ -18,6 +18,7 @@ def take_a_number(deli)
     #deli will be an array of tickets numbers, not names
     line_size = deli.size
     new_position = line_size + 1
+    deli << new_position
     puts "Welcome, you are ticket number #{new_position}. You are number #{new_position} in line."
 end
 
