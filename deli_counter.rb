@@ -26,12 +26,6 @@ def now_serving(deli)
   else
     puts "Currently serving #{deli.shift}."
   end
-
-    output = "The line is currently: "
-    output += deli.each_index {|x| puts x}
-
-    puts output
-
 end
 
 
