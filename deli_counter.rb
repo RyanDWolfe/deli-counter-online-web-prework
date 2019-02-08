@@ -38,4 +38,5 @@ end
 
 
 line = []
+now_serving(line)
 take_a_number(line, 'Bob')
